@@ -7,10 +7,56 @@
     android:paddingLeft="@dimen/activity_horizontal_margin"
     android:paddingRight="@dimen/activity_horizontal_margin"
     android:paddingTop="@dimen/activity_vertical_margin"
-    tools:context="bogota.spaceapps.lunaticos.MainActivity">
+    tools:context="bogota.spaceapps.lunaticos.MainActivity"
+    android:background="@mipmap/tierraluna">
 
-    <TextView
+    <Button
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Hello World!" />
+        android:id="@+id/Botonluna"
+        android:layout_marginTop="99dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:background="#03ffffff"
+        android:onClick="Reaccionboton" />
+
+    <Button
+        android:layout_width="60dp"
+        android:layout_height="60dp"
+        android:id="@+id/botonmundo"
+        android:background="@mipmap/iconomundo"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="63dp" />
+
+    <Button
+        android:layout_width="60dp"
+        android:layout_height="60dp"
+        android:id="@+id/botonpre"
+        android:background="@mipmap/pregunta"
+        android:layout_marginRight="27dp"
+        android:layout_marginEnd="27dp"
+        android:layout_alignBottom="@+id/Botonluna"
+        android:layout_toLeftOf="@+id/Botonluna"
+        android:layout_toStartOf="@+id/Botonluna" />
+
+    <Button
+        android:layout_width="70dp"
+        android:layout_height="70dp"
+        android:id="@+id/button"
+        android:background="@mipmap/atomo"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true" />
+
+    <Button
+        android:layout_width="55dp"
+        android:layout_height="55dp"
+        android:id="@+id/butonfav"
+        android:background="@mipmap/estrella"
+        android:layout_marginLeft="32dp"
+        android:layout_marginStart="32dp"
+        android:layout_alignTop="@+id/botonpre"
+        android:layout_toRightOf="@+id/Botonluna"
+        android:layout_toEndOf="@+id/Botonluna" />
+
 </RelativeLayout>
