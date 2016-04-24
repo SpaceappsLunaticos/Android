@@ -34,6 +34,12 @@ public class MainActivity extends AppCompatActivity {
                 startActivity(new Intent(MainActivity.this, Main4Activity.class));
             }
         });
+        findViewById(R.id.botonmundo).setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                startActivity(new Intent(MainActivity.this, Favoritos.class));
+            }
+        });
 
         // Button Botonluna = (Button) findViewById(R.id.Botonluna);
 

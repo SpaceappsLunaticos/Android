@@ -24,7 +24,7 @@
         android:layout_width="60dp"
         android:layout_height="60dp"
         android:id="@+id/botonmundo"
-        android:background="@mipmap/estrella"
+        android:background="@mipmap/favoritos"
         android:layout_alignTop="@+id/Botonluna"
         android:layout_alignParentRight="true"
         android:layout_alignParentEnd="true"
@@ -35,7 +35,7 @@
         android:layout_width="60dp"
         android:layout_height="60dp"
         android:id="@+id/botonpre"
-        android:background="@mipmap/pregunta"
+        android:background="@mipmap/sabias"
         android:layout_marginRight="27dp"
         android:layout_marginEnd="27dp"
         android:layout_alignBottom="@+id/Botonluna"
@@ -46,17 +46,18 @@
         android:layout_width="70dp"
         android:layout_height="70dp"
         android:id="@+id/button"
-        android:background="@mipmap/atomo"
+        android:background="@mipmap/experimentos"
         android:layout_alignParentTop="true"
         android:layout_centerHorizontal="true" />
 
     <Button
-        android:layout_width="55dp"
-        android:layout_height="55dp"
+        android:layout_width="60dp"
+        android:layout_height="60dp"
         android:id="@+id/butonfav"
-        android:background="@mipmap/iconomundo"
+        android:background="@mipmap/mapamundi1"
+        android:layout_marginBottom="104dp"
         android:layout_alignParentBottom="true"
-        android:layout_centerHorizontal="true"
-        android:layout_marginBottom="107dp" />
+        android:layout_alignRight="@+id/Botonluna"
+        android:layout_alignEnd="@+id/Botonluna" />
 
 </RelativeLayout>

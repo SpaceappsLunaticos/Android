@@ -7,4 +7,75 @@
     tools:context="bogota.spaceapps.lunaticos.Main4Activity"
     android:background="@mipmap/mapamundi">
 
+    <Button
+        style="?android:attr/buttonStyleSmall"
+        android:layout_width="27dp"
+        android:layout_height="27dp"
+        android:id="@+id/american"
+        android:layout_marginLeft="122dp"
+        android:layout_marginStart="122dp"
+        android:layout_marginTop="42dp"
+        android:background="@drawable/abc_ic_menu_copy_mtrl_am_alpha"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+    <Button
+        style="?android:attr/buttonStyleSmall"
+        android:layout_width="27dp"
+        android:layout_height="27dp"
+        android:id="@+id/button2"
+        android:background="@drawable/abc_ic_menu_copy_mtrl_am_alpha"
+        android:layout_centerVertical="true"
+        android:layout_toRightOf="@+id/american"
+        android:layout_toEndOf="@+id/american" />
+
+    <Button
+        style="?android:attr/buttonStyleSmall"
+        android:layout_width="27dp"
+        android:layout_height="27dp"
+        android:id="@+id/button3"
+        android:layout_marginLeft="86dp"
+        android:layout_marginStart="86dp"
+        android:background="@drawable/abc_ic_menu_copy_mtrl_am_alpha"
+        android:layout_above="@+id/button2"
+        android:layout_toRightOf="@+id/button2"
+        android:layout_toEndOf="@+id/button2" />
+
+    <Button
+        style="?android:attr/buttonStyleSmall"
+        android:layout_width="27dp"
+        android:layout_height="27dp"
+        android:id="@+id/button4"
+        android:background="@drawable/abc_ic_menu_copy_mtrl_am_alpha"
+        android:layout_alignBaseline="@+id/american"
+        android:layout_alignBottom="@+id/american"
+        android:layout_toRightOf="@+id/button3"
+        android:layout_toEndOf="@+id/button3" />
+
+    <Button
+        style="?android:attr/buttonStyleSmall"
+        android:layout_width="27dp"
+        android:layout_height="27dp"
+        android:id="@+id/button5"
+        android:layout_marginLeft="86dp"
+        android:layout_marginStart="86dp"
+        android:background="@drawable/abc_ic_menu_copy_mtrl_am_alpha"
+        android:layout_alignBaseline="@+id/button4"
+        android:layout_alignBottom="@+id/button4"
+        android:layout_toRightOf="@+id/button4"
+        android:layout_toEndOf="@+id/button4" />
+
+    <Button
+        style="?android:attr/buttonStyleSmall"
+        android:layout_width="27dp"
+        android:layout_height="27dp"
+        android:id="@+id/button6"
+        android:layout_marginTop="22dp"
+        android:background="@drawable/abc_ic_menu_copy_mtrl_am_alpha"
+        android:layout_below="@+id/button2"
+        android:layout_toRightOf="@+id/button5"
+        android:layout_toEndOf="@+id/button5"
+        android:layout_marginLeft="54dp"
+        android:layout_marginStart="54dp" />
 </RelativeLayout>
