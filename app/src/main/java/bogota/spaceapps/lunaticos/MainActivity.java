@@ -28,6 +28,12 @@ public class MainActivity extends AppCompatActivity {
                 startActivity(new Intent(MainActivity.this, Main3Activity.class));
             }
         });
+        findViewById(R.id.butonfav).setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                startActivity(new Intent(MainActivity.this, Main4Activity.class));
+            }
+        });
 
         // Button Botonluna = (Button) findViewById(R.id.Botonluna);
 
